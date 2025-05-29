@@ -2,4 +2,4 @@ ls
 
 pwd
 
-dnf list install
+sudo systemctl status nginx
