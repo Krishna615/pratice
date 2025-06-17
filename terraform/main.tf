@@ -20,3 +20,13 @@ variable "input" {}
 output "input" {
   value = var.input
 }
+
+variable "class" {}
+output "class" {
+  value = var.class
+}
+
+variable "trainer" {}
+output "trainer"{
+  value= var.trainer
+}
