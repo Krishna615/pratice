@@ -15,3 +15,8 @@ output "x" {
 output "x1" {
   value = "value of x - ${var.x}"
 }
+
+variable "input" {}
+output "input" {
+  value = var.input
+}
