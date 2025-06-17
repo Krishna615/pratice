@@ -11,3 +11,7 @@ variable "x" {
 output "x" {
   value = var.x
 }
+
+output "x1" {
+  value = "value of x - ${var.x}"
+}
