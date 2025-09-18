@@ -1,6 +1,6 @@
 - name: sample file
   hosts: all
   tasks:
-    - name: print hello world
+    - name: print hello world new
       ansible.builtin.debug:
         msg: hello world
